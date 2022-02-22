@@ -2,7 +2,9 @@
     package="com.example.sqlite_example">
    <application
         android:label="sqlite_example"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:fullBackupOnly="false"
+        android:allowBackup="false">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
